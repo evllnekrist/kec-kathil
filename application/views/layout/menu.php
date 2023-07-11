@@ -35,7 +35,7 @@ $nav_layanan                = $this->nav_model->nav_layanan();
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROFIL <span class="caret"></span></a>
                 <ul class="dropdown-menu sub-menu">
                   
-                    <li class="sub-active"><a href="<?php echo base_url('berita/read/profil-bkad') ?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i> TENTANG TSG</a></li>
+                    <li class="sub-active"><a href="<?php echo base_url('berita/read/profil-tsg') ?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i> TENTANG TSG</a></li>
                  
                   
                     <li class="sub-active"><a href="<?php echo base_url('struktur') ?>"><i class="fa fa-angle-double-right" aria-hidden="true"></i> STRUKTUR ORGANISASI</a></li>                   

@@ -48,8 +48,8 @@ class Staff_model extends CI_Model {
 		$this->db->select('staff.*, kategori_staff.nama_kategori_staff, kategori_staff.slug_kategori_staff');
 		$this->db->from('staff');
 		$this->db->join('kategori_staff','kategori_staff.id_kategori_staff = staff.id_kategori_staff','LEFT');
-		$this->db->where_not_in('jabatan', 'Kepala Dinas');
-		$this->db->where_not_in('jabatan', 'Sekretaris Dinas');
+		$this->db->where_not_in('jabatan', 'Camat');
+		$this->db->where_not_in('jabatan', 'Sekretaris Camat');
 		$this->db->where(array(	'status_staff'		=>'Yes'));
 		
 		$this->db->order_by('urutan','ASC');
@@ -62,8 +62,8 @@ class Staff_model extends CI_Model {
 		$this->db->select('staff.*, kategori_staff.nama_kategori_staff, kategori_staff.slug_kategori_staff');
 		$this->db->from('staff');
 		$this->db->join('kategori_staff','kategori_staff.id_kategori_staff = staff.id_kategori_staff','LEFT');
-		$this->db->where_not_in('jabatan', 'Kepala Dinas');
-		$this->db->where_not_in('jabatan', 'Sekretaris Dinas');
+		$this->db->where_not_in('jabatan', 'Camat');
+		$this->db->where_not_in('jabatan', 'Sekretaris Camat');
 		$this->db->like('jabatan', $search_term, 'both');
 		$this->db->where(array(	'status_staff'		=>'Yes'));
 		
@@ -77,7 +77,7 @@ class Staff_model extends CI_Model {
 		$this->db->from('staff');
 		$this->db->join('kategori_staff','kategori_staff.id_kategori_staff = staff.id_kategori_staff','LEFT');
 		$this->db->where(array(	'status_staff'		=>'Yes',
-								'jabatan' => 'Kepala Dinas'));
+								'jabatan' => 'Camat'));
 		$this->db->order_by('urutan','ASC');
 		$this->db->limit(1);
 		$query = $this->db->get();
@@ -88,7 +88,7 @@ class Staff_model extends CI_Model {
 		$this->db->from('staff');
 		$this->db->join('kategori_staff','kategori_staff.id_kategori_staff = staff.id_kategori_staff','LEFT');
 		$this->db->where(array(	'status_staff'		=>'Yes',
-								'jabatan' => 'Sekretaris Dinas'));
+								'jabatan' => 'Sekretaris Camat'));
 		$this->db->order_by('urutan','ASC');
 		$this->db->limit(1);
 		$query = $this->db->get();
