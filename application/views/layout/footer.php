@@ -201,14 +201,14 @@ $nav_topik     = $this->nav_model->nav_topik();
 <div class="row">
     <div class="footer-bottom">
         <div class="copyright-txt">
-            <p>Copyright &copy; <?php echo date('Y') ?>. <a href="" title="" style="color:maroon;">Katingan Hilir</a> All rights reserved.</p>
+            <p>Copyright &copy; <?php echo date('Y') ?>. <a href="" title="" style="color:black;">Katingan Hilir</a> All rights reserved.</p>
         </div>
         <!-- .copyright-txt -->
         <div class="social-box">
             <ul class="social-icon-rounded">
-                <li><a href="<?php echo $site->facebook ?>"  style="color:maroon;"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="<?php echo $site->instagram ?>" style="color:maroon;"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="<?php echo $site->twitter ?>" style="color:maroon;"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href="<?php echo $site->facebook ?>"  style="color:black;"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="<?php echo $site->instagram ?>" style="color:black;"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="<?php echo $site->twitter ?>" style="color:black;"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
             </ul>
         </div>
         <!-- .social-box -->

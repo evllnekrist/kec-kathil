@@ -30,7 +30,7 @@ $site_info = $this->konfigurasi_model->listing();
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/jquery.nstSlider.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/flexslider.css" media="all" />
 <!-- own style css -->
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/style.css?ver=<?php echo date('Y-m-d'); ?>" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/style.css?ver=<?php echo date('Y-m-d').'001'; ?>" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/rtl.css" media="all" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/tema/assets/css/responsive.css" media="all" />
 <!-- DataTables CSS -->
