@@ -201,7 +201,7 @@ $nav_topik     = $this->nav_model->nav_topik();
 <div class="row">
     <div class="footer-bottom">
         <div class="copyright-txt">
-            <p>Copyright &copy; <?php echo date('Y') ?>. <a href="" title="" style="color:maroon;">Tewang Sangalang Garing</a> All rights reserved.</p>
+            <p>Copyright &copy; <?php echo date('Y') ?>. <a href="" title="" style="color:maroon;">Katingan Hilir</a> All rights reserved.</p>
         </div>
         <!-- .copyright-txt -->
         <div class="social-box">
